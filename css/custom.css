@@ -1,0 +1,110 @@
+/* add & update form */
+.add-user-wrapper button,
+.update-user-wrapper button {
+	background: #000000;
+	border: 2px solid #000000;
+	color: #ffffff;
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	transition: all 0.25s linear;
+	width: 100%;
+}
+.add-user-wrapper button:hover,
+.update-user-wrapper button:hover {
+	background-color: transparent;
+	color: #000000;
+	cursor: pointer;
+}
+.modal .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+
+
+
+
+/* render usr */
+.media-object-users .media {
+	border: 1px solid #dddddd;
+	display: flex;	
+	line-height: 1.65;
+	margin-bottom: 20px;
+	max-width: 1300px;
+	padding: 20px;
+}
+.media-object-users .media-left--content {
+	/* flex: 1; */
+	margin-right: 20px;
+}
+.media-object-users .media-left--content img {
+	width: 100px;
+	border-radius: 50%;
+}
+.media-object-users .media-body--content {
+	flex: 6;
+	color: #000000;
+}
+.media-object-users .media-controls--content {
+	flex: 1;
+	text-align: right;
+}
+.media-object-users .media-controls--content button {
+	background: #000000;
+	border: 2px solid #000000;
+	color: #ffffff;
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	transition: all 0.25s linear;
+	width: 100%;
+}
+.media-object-users .media-controls--content button:hover {
+	background-color: transparent;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add-user-wrapper,
+.update-user-wrapper {
+	border: 1px solid #dddddd; padding: 20px;
+}
+.form-controller {
+	margin: 10px 0;
+}
+
+.add-user-wrapper {
+	margin-bottom: 20px;
+}
+#all-users {
+	list-style-type: none;
+}
+#all-users li {
+	border: 1px solid #dddddd;
+	padding: 20px;
+}
+#all-users li span {
+	margin-right: 10px;
+}
+#all-users li p {
+	margin: 0;
+}
